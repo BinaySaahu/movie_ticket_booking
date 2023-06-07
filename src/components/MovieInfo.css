@@ -1,0 +1,87 @@
+.movieinfo{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+}
+.movieinfo_img_section{
+    display: flex;
+    gap: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('https://static.tvmaze.com/uploads/images/original_untouched/413/1034988.jpg');
+
+    background-position-y: 10%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    padding: 10px;
+}
+.movieinfo_img_section img{
+    object-fit: contain;
+    width: 100%;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    flex: 0.2;
+
+}
+.left p{
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-size: 13px;
+}
+.right{
+    flex: 0.8;
+}
+.btn2{
+    background-color: rgb(199, 40, 172);
+    color: white;
+    border: 1px solid rgb(199, 40, 172);
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.movieinfo_summary_section{
+    padding: 10px;
+    font-family: sans-serif;
+}
+.right p{
+    font-family: sans-serif;
+}
+.right .title{
+    font-weight: 800;
+    font-size: 30px;
+
+}
+.right .ratings{
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.right .country{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.right .time{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .movieinfo_img_section .left{
+        display: none;
+    }
+    .movieinfo_img_section img{
+        height: 100%;
+    }
+    
+}

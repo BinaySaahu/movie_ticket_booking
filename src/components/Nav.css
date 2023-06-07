@@ -1,0 +1,18 @@
+.nav{
+    background-color:rgb(199, 40, 172);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.nav h2{
+    margin: 10px 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
